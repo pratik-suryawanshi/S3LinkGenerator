@@ -30,7 +30,7 @@ public class testAWS {
         try {
         	@SuppressWarnings("deprecation")
 			AmazonS3 s3Client = new AmazonS3Client(DefaultAWSCredentialsProviderChain.getInstance());
-
+        	System.out.println("Pratik Suryawanshi");
 
             // Create a list of ETag objects. You retrieve ETags for each object part uploaded,
             // then, after each individual part has been uploaded, pass the list of ETags to 
